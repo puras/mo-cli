@@ -1,0 +1,25 @@
+{
+  "name": "mo-cli",
+  "version": "0.0.1",
+  "description": "mooko command-line interface",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/puras/mo-cli.git"
+  },
+  "keywords": [
+    "mooko",
+    "command-line",
+    "interface",
+    "cli"
+  ],
+  "author": "he@puras.me",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/puras/mo-cli/issues"
+  },
+  "homepage": "https://github.com/puras/mo-cli#readme"
+}

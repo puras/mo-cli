@@ -23,5 +23,9 @@
   "bugs": {
     "url": "https://github.com/puras/mo-cli/issues"
   },
-  "homepage": "https://github.com/puras/mo-cli#readme"
+  "homepage": "https://github.com/puras/mo-cli#readme",
+  "dependencies": {
+    "colors": "^1.1.2",
+    "optimist": "^0.6.1"
+  }
 }

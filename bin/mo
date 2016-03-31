@@ -1,3 +1,12 @@
 #!/usr/bin/env node
 
-console.log('test command line!');
+'use strict';
+
+process.title = 'mo';
+
+process.on('uncaughtException', function(err) {
+    console.error('Caught exception:\n', err.stack, '\n\nMind letting us know? https://github.com/puras/mo-cli/issues\n')
+});
+
+var MoCli = require('../lib/cli.js');
+MoCli.run(process.argv);
